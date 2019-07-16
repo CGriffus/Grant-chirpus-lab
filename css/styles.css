@@ -3,46 +3,59 @@ body {
   font-family: "Open Sans";
 }
 /*-------navbar styling -------*/
+#logo {
+  font-weight: bold;
+  padding: 0 0 2px 0;
+  margin: 5px;
+}
 .navbar a {
   text-decoration: none;
   color: #69696a;
   display: flex;
   flex-direction: column;
   width: 25%;
+  padding: 5px;
 }
 
 .navbar a:visited {
   color: #69696a;
 }
 
-.navbar .button {
-  background: black;
+#hire-us {
+  border: none;
+  background: #000;
   color: #fff;
   width: 100%;
   text-align: center;
   padding: 10px;
   border-radius: 20px;
+  font-size: 15px;
 }
 
 /*-----------article styling------------*/
-
-.header {
+#header {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
-.info {
-  border-left: 2px solid black;
+#info {
+  border-left: 3px solid;
+  padding: 12px;
+  border-color: #69696a;
+  margin-bottom: 30px;
 }
 
 /*---------button styling--------------*/
 
-.scroll {
+#scroll {
+  border: none;
   text-decoration: none;
-  background: black;
+  background: #000;
   color: #fff;
   padding: 10px;
   border-radius: 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  font-size: 15px;
 }
