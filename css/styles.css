@@ -3,17 +3,20 @@ body {
   font-family: "Open Sans";
 }
 /*-------navbar styling -------*/
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
 #logo {
   font-weight: bold;
   padding: 0 0 2px 0;
   margin: 5px;
 }
+
 .navbar a {
   text-decoration: none;
   color: #69696a;
-  display: flex;
-  flex-direction: column;
-  width: 25%;
   padding: 5px;
 }
 
@@ -63,6 +66,12 @@ body {
 /*---------------Desktop Design-----------*/
 @media only screen and (min-width: 768px) {
   /*------------navbar-------------*/
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .navbar {
     display: flex;
     flex-direction: row;
@@ -71,6 +80,55 @@ body {
 
   #hire-us {
     width: auto;
-    padding: 8px;
+  }
+
+  #logo {
+    justify-self: flex-start;
+  }
+
+  /*---------article---------*/
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  /*--------button----------*/
+  #scroll {
+    width: auto;
+  }
+
+  /*---------circles-----------*/
+
+  #circle-1 {
+    background: rgba(247, 136, 167, 0.6);
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+  }
+
+  #circle-2 {
+    background: rgba(247, 193, 162, 0.7);
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    right: 50px;
+    top: 300px;
+  }
+
+  #circle-3 {
+    background: rgba(207, 130, 213, 0.6);
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    position: absolute;
+    right: 50px;
+    top: 225px;
   }
 }
