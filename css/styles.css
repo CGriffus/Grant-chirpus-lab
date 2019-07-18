@@ -59,7 +59,7 @@ body {
 
 /*---------button styling (mobile)--------------*/
 #scroll {
-  xborder: none;
+  border: none;
   text-decoration: none;
   background: #000;
   color: #fff;
