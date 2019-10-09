@@ -4,75 +4,36 @@
 }
 
 body {
-  margin: 20px;
+  font-family: "Open Sans", sans-serif;
   background: #f9fafc;
-  font-family: "Open Sans";
 }
-/*-------navbar styling (mobile)-------*/
-.navbar {
+
+header {
   display: flex;
   flex-direction: column;
 }
 
 #logo {
-  font-weight: bold;
-  padding: 0 0 2px 0;
-  margin: 5px;
-  text-decoration: none;
   color: #000;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: #69696a;
-  padding: 5px;
-}
-
-.navbar a:visited {
-  color: #69696a;
-}
-
-#hire-us {
-  border: none;
-  background: #000;
-  color: #fff;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 15px;
-}
-
-/*-----------article styling (mobile)------------*/
-#header {
   font-weight: bold;
-  font-size: 30px;
-  margin-top: 20px;
 }
 
-#info {
-  border-left: 3px solid;
-  padding: 12px;
-  border-color: #69696a;
-  margin-bottom: 30px;
-}
-
-/*---------button styling (mobile)--------------*/
-#scroll {
-  border: none;
+li a {
+  color: #69696a;
   text-decoration: none;
+}
+
+button {
+  width: 100%;
   background: #000;
+  border: none;
   color: #fff;
   padding: 10px;
-  border-radius: 20px;
-  text-align: center;
-  width: 100%;
-  font-size: 15px;
+  border-radius: 50px;
 }
 
 /*---------------Desktop Design-----------*/
-@media only screen and (min-width: 768px) {
-  /*------------navbar-------------*/
+/* @media only screen and (min-width: 768px) {
   header {
     display: flex;
     flex-direction: row;
@@ -83,20 +44,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   #hire-us {
     width: auto;
   }
 
-  /*---------article---------*/
-
   .article {
     width: 50%;
     margin-top: 150px;
   }
 
-  /*--------button----------*/
   #scroll {
     width: auto;
     position: absolute;
@@ -104,8 +63,6 @@ body {
     left: 50%;
     transform: translate(-50%);
   }
-
-  /*---------circles-----------*/
 
   #circle-1 {
     background: rgba(247, 136, 167, 0.6);
@@ -142,4 +99,4 @@ body {
     transform: translate(50px, 10px);
     z-index: 1;
   }
-}
+} */
